@@ -1,0 +1,38 @@
+body{
+	background: url("../images/background.jpg");
+	background-size: cover;
+	text-align: center;
+}
+h1{
+	font-family: Helvetica;
+	color: #FFD1CB;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+#slogan{
+	font-style: italic;
+	font-size: 18px;
+	color: #FFD1CB;
+}
+a{
+	text-decoration: none;
+	color: #FFD1CB;
+	font-family: Helvetica;
+}
+p{
+	font-family: Helvetica;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+img{
+	padding-bottom: 50px;
+	padding-top:50px;
+}
+ul{
+	font-family: Helvetica;
+	list-style-type: none;
+	width: 200px;
+	margin: auto;
+	padding: 0;
+}
