@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700,400,300);
+
+body{
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1{
+	font-family: Oswald, sans-serif;
+	color: #FFD1CB;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 300;
+	padding-top: 40px;
+
+}
+h2{
+	font-family: Oswald, sans-serif;
+	color: #E08688;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 300;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+h3{	font-family: Helvectica, sans-serif;
+	text-align: left;
+	color: #4d4d4d;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 40px;
+}
+a{
+	text-decoration: none;
+	color: #FFD1CB;
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 350;
+}
+p{
+	font-family: Helvetica, sans-serif;
+	margin: 40px;
+	text-align: left;
+	color: #4d4d4d;
+	font-size: 16px;
+	line-height: 26px;
+}
+img{
+	padding: 40px
+}
+.slash{
+	color: #B1FFD9;
+	font-weight: 300;
+}
+.slashpink{
+	color: #E08688;
+	font-weight: 300;	
+}
+.slashgrey{
+	color: #808080;
+	font-weight: 300;
+}
+.grey{
+	color: #808080;
+}	
+.pink{
+	color: #E08688;
+}
+.green{
+	color: #B1FFD9;
+}
+#section1{
+	position: relative;
+  	background-color: transparent;
+}
+#section2{
+	height: 100vh;
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#logo{
+	padding: 100px;
+}
+#about{
+	height:700px;
+}
+#aboutleft{
+	float: left;
+	width: 50%;
+	background-color: #B1FFD9;
+	height: 100%;
+}
+#aboutright{
+	float: right;
+	width: 50%;
+	background: #ffffff;
+	height: 100%;
+}
+#workleft{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: #ffffff;
+}
+#workright{
+	float: right;
+	width: 50%;
+	height: 400px;
+}
+#pixels{
+	height:50%;
+	background: url("../images/pencil-pixel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pencils{
+	height:50%;
+	background: url("../images/pencil-pixel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contactleft{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: #FFD1CB;
+}
+#contactright{
+	float: right;
+	width: 50%;
+	height: 400px;
+	background: #ffffff;
+}
