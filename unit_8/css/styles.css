@@ -93,11 +93,7 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	width: 50%;
 	height: 100%;
 	position: relative;	
-}
-.rightcontent img{
-	height:50%;
-	width: 100%;
-	display: block;
+	background-color: #ffffff;
 }
 .workheaderwrapper{
 	height:115px;
@@ -147,6 +143,25 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 .thumbnail img{
 	width: 100%;
 }
+.first{
+	display: block;
+}
+.second{
+	display: none;
+}
+.workright{
+	height:50%;
+	position: relative;
+}
+.workright img{
+	width: 100%;
+}
+.workright:hover .first{
+  display: none;
+}
+.workright:hover .second{
+  display: block;
+}
 #aboutleft, #workleft, #contactleft{
 	float: left;
 	width: 50%;
@@ -163,10 +178,6 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 #topheaderwrapper{
 	height:100vh;
 	position: relative;
-}
-#topheader{
-	height:100%;
-	position: relative;
 	background: url("../images/background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -175,7 +186,23 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	margin: 100px 20px;
 	max-width: 75%;
 }
+
+#pencilbottom{
+	height:50%;
+	position: relative;
+	background: url("../images/pencil.jpg");
+	background-size: cover;
+	padding: 40px;
+}
 @media screen and (max-width: 670px) {
+	h2, .grey, .green{
+		padding: 0 0 0 0;
+		color: #E08688;
+	}
+	h3, p{
+		margin: 8%;
+	}
+
 	.rightcontent{
 		float: none;
 		width: auto;
@@ -183,6 +210,26 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	#aboutleft, #workleft, #contactleft{
 		float: none;
 		width: auto;
+		background-color: #B1FFD9
+	}
+	.infowrapper{
+		height: auto;
+	}
+	.leftcontent{
+		transform: translateY(0%);
+		padding: 5%;
+	}
+	.leftcontent a{
+		display: none;
+	}
+	.leftcontent img{
+		padding-bottom: 5%;
+	}
+	.slash{
+		display: none;
+	}
+	#topheader .slash{
+		display: inline-block;
 	}
 }	
 
