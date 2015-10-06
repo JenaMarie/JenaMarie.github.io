@@ -137,7 +137,6 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 }
 .thumbnailwrapper{
 	position: absolute;
-	height:1200px;
 	overflow: hidden;
 }
 .thumbnail{
@@ -147,7 +146,7 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	position: relative;
 }
 .thumbnail img{
-	width: 100%;
+	height: 100%;
 }
 .captionbox{
 	height:400px;
@@ -244,9 +243,23 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	background-size: cover;
 	padding: 40px;
 }
+#gallery{
+	width: 100%;
+}
+
+#gallery a{
+	margin:0;
+	display: block;
+	float: left;
+	width: 20%;
+}
+#gallery a img{
+	width: 100%;
+}
 @media screen and (max-width: 1080px) {
 	.thumbnail{
 		width: 50%;
+		overflow: hidden;
 	}
 }	
 @media screen and (max-width: 670px) {
@@ -278,6 +291,9 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	.slash{
 		display: none;
 	}
+	.thumbnailwrapper{
+	position: relative;
+	}
 	.thumbnail{
 		width: 100%;
 		float: none;
@@ -285,6 +301,9 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	.caption, .viewcaption{
 		padding: 30% 0;
 	}
+	.workheader{
+		padding: 0px 15px 0px 15px;
+	}	
 	#topheaderwrapper{
 		height: auto;
 		padding-bottom: 40px;
@@ -294,10 +313,13 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 		width: auto;
 		background-color: #B1FFD9
 	}
-	.workheader{
-		padding: 0px 15px 0px 15px;
+	#workrighttop img, #workrightbottom img{
+		padding: 5%;
+		top: 0;
+		transform: translateY(0);
 	}
-
-x
+	#logo{
+		max-width: 95%;
+	}
 }	
 
