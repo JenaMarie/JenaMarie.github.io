@@ -313,7 +313,7 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	}
 	.imagescol img{
 	width: 100%;
-	min-width:auto;
+	min-width:200px;
 	}
 	.detailscol{
 		padding: 15px;
