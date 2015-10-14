@@ -386,4 +386,10 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 		width: 50%;
 	}
 }	
+@media screen and (max-width: 640px) {
+	.worklogo{
+		display: none;
+	}
+}
+
 
