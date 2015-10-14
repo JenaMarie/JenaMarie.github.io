@@ -157,6 +157,9 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	left:0;
 	display: none;
 }
+.captionbox a{
+	text-decoration: none;
+}
 .caption, .viewcaption{
 	font-family: Helvectica, sans-serif;
 	text-align:center;
@@ -179,6 +182,29 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 }
 .second{
 	display: none;
+}
+.workcols{
+	position: relative;
+	width: 100%;
+}
+.detailscol{
+	padding: 40px;
+	width: 20%;
+	min-width: 350px;
+	float: left;
+}
+.imagescol{
+	padding-top: 88px;
+	padding-left: 20px;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+.imagescol img{
+	max-width: 100%;
+	min-width:670px;
+	margin-bottom: 0px;
+	display: block;
 }
 #workrighttop{
 	height:50%;
@@ -249,9 +275,11 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 
 #gallery a{
 	margin:0;
+	padding: 0;
 	display: block;
 	float: left;
 	width: 20%;
+	font-size: 0;
 }
 #gallery a img{
 	width: 100%;
@@ -261,8 +289,41 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 		width: 50%;
 		overflow: hidden;
 	}
+	#gallery a{
+		width: 25%;
+	}
 }	
+
+@media screen and (max-width: 1040px) {
+	.imagescol img, .detailscol{
+		min-width:auto;
+	}
+	.detailscol{
+		width:40%;
+	}
+	.imagescol{
+		width:60%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.imagescol{
+		width:100%;
+		padding-left: 0px;
+		float: none;
+	}
+	.imagescol img{
+	width: 200%
+	}
+	.detailscol{
+		padding: 15px;
+		width: auto;
+	}	
+}
+
 @media screen and (max-width: 670px) {
+	h4{
+		margin-left: 15px;
+	}
 	h2, .grey, .green{
 		padding: 0 0 0 0;
 		color: #E08688;
@@ -303,7 +364,7 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	}
 	.workheader{
 		padding: 0px 15px 0px 15px;
-	}	
+	}
 	#topheaderwrapper{
 		height: auto;
 		padding-bottom: 40px;
@@ -320,6 +381,9 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	}
 	#logo{
 		max-width: 95%;
+	}
+	#gallery a{
+		width: 50%;
 	}
 }	
 
