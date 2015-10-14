@@ -1,0 +1,389 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700,400,300);
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	width: 100%;
+	font-size:16px;
+}
+h1, h2{
+	font-family: Oswald, sans-serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+h1{
+	color: #FFD1CB;
+	letter-spacing: 4px;
+}
+h2{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+h3, p, a{
+	font-family: Helvectica, sans-serif;
+    text-align: left;
+    color: #4d4d4d;
+    font-size: 1.25em;
+    line-height: 1.625;
+    margin-bottom: 1em;
+}
+p{
+    font-size: 1em;
+}
+a{
+	font-size: 1em;
+	color: #39de9e;
+}
+nav a, .workheader a, h4{
+	text-decoration: none;
+	color: #FFD1CB;
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 350;
+	font-size: 1em;
+}
+h4{
+	text-align: left;
+	font-size: 1.5em;
+	color: #E08688;
+	margin-left: 40px;
+	letter-spacing: 2px;
+}
+nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader a:hover{
+	color: #39de9e;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.slash, .slash1{
+	font-family: Oswald, sans-serif;
+	letter-spacing: 4px;
+	font-weight: 300;
+	color: #B1FFD9;
+}
+.darkpinklink, .darkpink{
+	color: #E08688;
+}
+.greylink, .grey{
+	color: #808080;
+}
+.greenlink, .green{
+	color: #B1FFD9;
+}
+.infowrapper{
+	height:100vh;
+	position:relative;
+}
+.leftcontent{
+	position: relative;
+	text-align: center;
+	top:50%;
+	transform: translateY(-60%);
+}
+.rightcontent, .rightcontentpad{
+	float: right;
+	width: 50%;
+	height: 100%;
+	position: relative;	
+	background-color: #ffffff;
+}
+.rightcontentpad{
+	padding: 40px;
+	overflow: scroll;
+}
+.workheaderwrapper{
+	height:115px;
+	position: relative;
+}
+.workheader{
+	height:100%;
+	position: relative;
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 40px 0px 40px;
+}
+.workheader a{
+	color: #ffffff;
+}
+.worknavigation{
+	float: left;
+	margin-top: 49px;
+	margin-bottom: 49px;
+}
+.worklogo{
+	float: right;
+	margin-top: 26.5px;
+	margin-bottom: 26.5px;
+
+}
+.worksubheader{
+	height: 50px;
+	width: 100%;
+	background-color: #B1FFD9;
+	padding-top: 12px;
+}
+.thumbnailwrapper{
+	position: absolute;
+	overflow: hidden;
+}
+.thumbnail{
+	float: left;
+	width: 33.33%;
+	height: 400px;
+	position: relative;
+}
+.thumbnail img{
+	height: 100%;
+}
+.captionbox{
+	height:400px;
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.captionbox a{
+	text-decoration: none;
+}
+.caption, .viewcaption{
+	font-family: Helvectica, sans-serif;
+	text-align:center;
+	color:#ffffff;
+	font-size: 1.3em;
+	padding: 40% 0;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+.viewcaption{
+	font-size: .7em;
+	font-weight: 100;
+	letter-spacing: .2em;
+}
+.thumbnail:hover > .captionbox{
+	display: block;
+}
+.first{
+	display: block;
+}
+.second{
+	display: none;
+}
+.workcols{
+	position: relative;
+	width: 100%;
+}
+.detailscol{
+	padding: 40px;
+	width: 20%;
+	min-width: 350px;
+	float: left;
+}
+.imagescol{
+	padding-top: 88px;
+	padding-left: 20px;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+.imagescol img{
+	max-width: 100%;
+	min-width:670px;
+	margin-bottom: 0px;
+	display: block;
+}
+#workrighttop{
+	height:50%;
+	position: relative;
+	background: url("../images/pixel.jpg");
+	background-size: cover;
+}
+#workrighttop img, #workrightbottom img{
+	max-width: 65%;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#workrighttop:hover{
+	background: url("../images/pixel-hover.jpg");
+	background-size: cover;
+}
+#workrightbottom{
+	height:50%;
+	position: relative;
+	background: url("../images/pencil.jpg");
+	background-size: cover;
+}
+
+#workrightbottom:hover{
+	background: url("../images/pencil-hover.jpg");
+	background-size: cover;
+}
+#aboutleft, #workleft, #contactleft{
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	background-color: #B1FFD9;
+}
+#workleft{
+	background-color: #ffffff;
+}
+#contactleft{
+	background-color: #FFD1CB;
+}
+#topheaderwrapper{
+	height:100vh;
+	position: relative;
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: scroll;
+	padding: 40px;
+}
+#logo{
+	margin: 100px 20px;
+	max-width: 75%;
+}
+
+#pencilbottom{
+	height:50%;
+	position: relative;
+	background: url("../images/pencil.jpg");
+	background-size: cover;
+	padding: 40px;
+}
+#gallery{
+	width: 100%;
+}
+
+#gallery a{
+	margin:0;
+	padding: 0;
+	display: block;
+	float: left;
+	width: 20%;
+	font-size: 0;
+}
+#gallery a img{
+	width: 100%;
+}
+@media screen and (max-width: 1080px) {
+	.thumbnail{
+		width: 50%;
+		overflow: hidden;
+	}
+	#gallery a{
+		width: 25%;
+	}
+}	
+
+@media screen and (max-width: 1040px) {
+	.imagescol img, .detailscol{
+		min-width:auto;
+	}
+	.detailscol{
+		width:40%;
+	}
+	.imagescol{
+		width:60%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.imagescol{
+		width:100%;
+		padding-left: 0px;
+		float: none;
+	}
+	.imagescol img{
+	width: 200%
+	}
+	.detailscol{
+		padding: 15px;
+		width: auto;
+	}	
+}
+
+@media screen and (max-width: 670px) {
+	h4{
+		margin-left: 15px;
+	}
+	h2, .grey, .green{
+		padding: 0 0 0 0;
+		color: #E08688;
+	}
+
+	.rightcontent, .rightcontentpad{
+		float: none;
+		width: auto;
+	}
+	.rightcontentabout{
+		padding: 8%;
+	}
+	.infowrapper{
+		height: auto;
+	}
+	.leftcontent{
+		transform: translateY(0%);
+		padding: 5%;
+	}
+	.leftcontent a{
+		display: none;
+	}
+	.leftcontent img{
+		padding-bottom: 5%;
+	}
+	.slash{
+		display: none;
+	}
+	.thumbnailwrapper{
+	position: relative;
+	}
+	.thumbnail{
+		width: 100%;
+		float: none;
+	}
+	.caption, .viewcaption{
+		padding: 30% 0;
+	}
+	.workheader{
+		padding: 0px 15px 0px 15px;
+	}
+	#topheaderwrapper{
+		height: auto;
+		padding-bottom: 40px;
+	}
+	#aboutleft, #workleft, #contactleft{
+		float: none;
+		width: auto;
+		background-color: #B1FFD9
+	}
+	#workrighttop img, #workrightbottom img{
+		padding: 5%;
+		top: 0;
+		transform: translateY(0);
+	}
+	#logo{
+		max-width: 95%;
+	}
+	#gallery a{
+		width: 50%;
+	}
+}	
+
