@@ -306,6 +306,7 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	}
 }
 @media screen and (max-width: 700px) {
+	
 	.imagescol{
 		width:100%;
 		padding-left: 0px;
@@ -388,6 +389,9 @@ nav a:hover, .greylink:hover, .greenlink:hover, .darkpinklink:hover, .workheader
 	}
 }	
 @media screen and (max-width: 340px) {
+	body{
+		font-size:14px;
+	}
 	.worklogo{
 		display: none;
 
